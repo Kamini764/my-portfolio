@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.exp-heading h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 20px #f7f2f2;
+    margin-left: 50px;
+    padding-top: 100px;
+}
+
+.exp-underline.underline1{
+    margin: 10px 0% 3px 10rem;
+    border-bottom: 5px solid #f7f8f8;
+    border-radius: 4px;
+    background-color: #f6f6f6;
+    width: 350px;
+}
+
+.exp-underline.underline2 {
+    margin-left: 12rem;
+    border-bottom: 5px solid #f7f8fa;
+    border-radius: 4px;
+    width: 350px;
+    background-color: #f6f6f6;
+}
+.exp-text{
+   
+    margin: 100px 300px 0px 50px;
+ }
+ .exp-text h2{
+    color: green;
+ }
+ .exp-text h4{
+    font-family: "Poppins", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: green;
+ }
+ .exp-text span:hover{
+     background-color: yellow;
+     color: black;
+ }

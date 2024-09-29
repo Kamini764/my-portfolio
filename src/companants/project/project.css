@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.project-heading1 h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 20px #f7f2f2;
+    margin-left: 50px;
+    padding-top: 100px;
+}
+
+.project-underline .underline1{
+    margin: 10px 0% 3px 10rem;
+    border-bottom: 5px solid #f7f8f8;
+    border-radius: 4px;
+    background-color: #f6f6f6;
+    width: 250px;
+}
+
+.project-underline.underline2 {
+    margin-left: 12rem;
+    border-bottom: 5px solid #f7f8fa;
+    border-radius: 4px;
+    width: 350px;
+    background-color: #f6f6f6;
+}
+.project-heading2 h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #646464;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+
+.Trip-website-project {
+    background-color: rgb(27, 25, 25);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+    max-width: 600px; 
+    height: 600px; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Trip-website-project img {
+    width: 100%; 
+    height: 50%; 
+    object-fit: cover; 
+    border-bottom: 2px solid #f0f0f0; 
+  }
+  
+  .Trip-website-project-text {
+    height: 50%; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .Trip-website-project-text h3 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  .Trip-website-project-text p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #f8f6f6;
+  }
+  
+  .Trip-website-project:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+  .skills-container {
+    display: flex;       
+    justify-content: center;      
+    flex-wrap: wrap;              
+    gap: 10px;                    
+    margin-top: 5px;          
+  }
+  
+  .skill-item {
+    background-color: #111111;    
+    color: green;                 
+    padding: 8px 15px;           
+    border-radius: 20px;          
+    font-size: 0.9rem;            
+    text-align: center;          
+    cursor: default;              
+    transition: background-color 0.3s ease;  
+  }
+  
+  .skill-item:hover {
+    background-color: #494c4e;   
+    color: rgb(12, 238, 12);
+  }
+  .project-links a{
+    margin-bottom: 50px;
+    text-align: center;
+    color: rgb(204, 25, 25);
+  }
+
+
+  .project-links {
+    text-align: center;         
+    margin-top: 5px;        
+  }
+  
+  .project-links a {
+    color: white;              
+    text-decoration: none;       
+    font-weight: bold;           
+    font-size: 2rem;             
+    transition: color 0.3s ease; 
+  }
+  
+  .project-links a:hover {
+    color: green;              
+    text-decoration: underline;  
+  }
+  
+  
+  
